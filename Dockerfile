@@ -103,5 +103,4 @@ RUN set -eux && \
 RUN set -eux && \
     pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/ && \
     pip config set install.trusted-host mirrors.aliyun.com && \
-    pip install --upgrade pip setuptools wheel pycryptodome lxml cython beautifulsoup4 requests && \
-    rm -r /root/.cache
+    pip install --upgrade pip setuptools wheel pycryptodome lxml cython beautifulsoup4 requests
